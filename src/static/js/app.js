@@ -2,7 +2,6 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <div>We are updating new features for you. Please let us know what you think.</div>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
